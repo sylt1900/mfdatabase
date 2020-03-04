@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MFdatabase" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MFdatabase" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../MFdatabase" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MFdatabase" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../MFdatabase" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Attr.cpp" />
+		<Unit filename="Attr.h" />
+		<Unit filename="Base.cpp" />
+		<Unit filename="Base.h" />
+		<Unit filename="BlockAddr.cpp" />
+		<Unit filename="BlockAddr.h" />
+		<Unit filename="Buffmanager.cpp" />
+		<Unit filename="Buffmanager.h" />
+		<Unit filename="Const.h" />
+		<Unit filename="DBout.h" />
+		<Unit filename="Element.cpp" />
+		<Unit filename="Element.h" />
+		<Unit filename="Filemanager.cpp" />
+		<Unit filename="Filemanager.h" />
+		<Unit filename="HashMap.cpp" />
+		<Unit filename="HashMap.h" />
+		<Unit filename="InterManager.cpp" />
+		<Unit filename="InterManager.h" />
+		<Unit filename="MyException.cpp" />
+		<Unit filename="MyException.h" />
+		<Unit filename="MyRegex.cpp" />
+		<Unit filename="MyRegex.h" />
+		<Unit filename="RecoderManager.cpp" />
+		<Unit filename="RecoderManager.h" />
+		<Unit filename="Table.cpp" />
+		<Unit filename="Table.h" />
+		<Unit filename="Tuber.cpp" />
+		<Unit filename="Tuber.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
